@@ -1,2 +1,16 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* Ensure holder takes full viewport width and height */
+.holder {
+  display: flex; /* Activate flexbox layout */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+}
+
+/* Style for item-1 */
+.item-1 {
+  width: 100px; /* Set width */
+  height: 100px; /* Set height */
+  background-color: red; /* Red background */
+}
